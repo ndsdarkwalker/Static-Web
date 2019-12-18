@@ -1,0 +1,307 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Motorcycles Blog</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Mau web Blogger nay phu hop voi Boostrap, Responsive, Flat va tuong thich voi gan nhu tat ca cac smartphone khac" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href='//fonts.googleapis.com/css?family=Open+Sans:700,700italic,800,300,300italic,400italic,400,600,600italic' rel='stylesheet' type='text/css'>
+<!--Custom-Theme-files-->
+	<link href="css/style.css" rel='stylesheet' type='text/css' />	
+	<script src="js/jquery.min.js"> </script>
+<!--/script-->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+				});
+			});
+</script>
+
+</head>
+<body>
+	<!-- header-section-starts -->
+      <div class="h-top" id="home">
+		   <div class="top-header">
+				  <ul class="cl-effect-16 top-nag">
+						<li><a href="registration.html" data-hover="Đăng ký">Đăng ký</a></li> 
+						<li><a href="about.html" data-hover="Về chúng tôi">Về chúng tôi</a></li>
+						<li><a href="services.html" data-hover="Dịch vụ">Dịch vụ</a></li>
+						<li><a href="login.html" data-hover="Đăng nhập">Đăng nhập</a></li>
+						<li><a href="contact.html" data-hover="Liên hệ">Liên hệ</a></li>
+					</ul>
+					<div class="search-box">
+					    <div class="b-search">
+								<form>
+										<input type="text" value="Tìm kiếm" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
+										<input type="submit" value="">
+								</form>
+							</div>
+						</div>
+
+					<div class="clearfix"></div>
+				</div>
+       </div>
+	<div class="full">
+			<div class="col-md-3 top-nav">
+				     <div class="logo">
+						<a href="index.html"><h1>Motor Blog</h1></a>
+					</div>
+					<div class="top-menu">
+					 <span class="menu"> </span>
+
+					<ul class="cl-effect-16">
+						<li><a class="active" href="index.html" data-hover="Trang chủ">Trang chủ</a></li> 
+						<li><a href="about.html" data-hover="Về chúng tôi">Về chúng tôi</a></li>
+						<li><a href="product.html" data-hover="Sản phẩm">Sản phẩm</a></li>
+						<li><a href="services.html" data-hover="Dịch vụ">Dịch vụ</a></li>
+						<li><a href="gallery.html" data-hover="Hình ảnh">Hình ảnh</a></li>
+						<li><a href="contact.html" data-hover="Liên hệ">Liên hệ</a></li>
+					</ul>
+					<!-- script-for-nav -->
+					<script>
+						$( "span.menu" ).click(function() {
+						  $( ".top-menu ul" ).slideToggle(300, function() {
+							// Animation complete.
+						  });
+						});
+					</script>
+				<!-- script-for-nav --> 	
+					<ul class="side-icons">
+							<li><a class="fb" href="#"></a></li>
+							<li><a class="twitt" href="#"></a></li>
+							<li><a class="goog" href="#"></a></li>
+							<li><a class="drib" href="#"></a></li>
+					   </ul>
+			    </div>
+			</div>
+	<div class="col-md-9 main">
+		<!--banner-section-->
+		<div class="banner-section">
+		   <h3 class="tittle">Tổng quan <i class="glyphicon glyphicon-picture"></i></h3>
+			<div class="banner">
+                 <div  class="callbacks_container">
+					<ul class="rslides" id="slider4">
+					       <li>
+							  <img src="images/1.jpg" class="img-responsive" alt="" />
+
+							</li>
+							<li>
+								 <img src="images/2.jpg" class="img-responsive" alt="" />
+
+
+							</li>
+							<li>
+							 <img src="images/3.jpg" class="img-responsive" alt="" />
+
+							
+							</li>
+							<li>
+							 <img src="images/4.jpg" class="img-responsive" alt="" />
+
+
+							</li>
+						</ul>
+					</div>
+					<!--banner-->
+	  			<script src="js/responsiveslides.min.js"></script>
+			 <script>
+			    // You can also use "$(window).load(function() {"
+			    $(function () {
+			      // Slideshow 4
+			      $("#slider4").responsiveSlides({
+			        auto: true,
+			        pager:true,
+			        nav:true,
+			        speed: 500,
+			        namespace: "callbacks",
+			        before: function () {
+			          $('.events').append("<li>before event fired.</li>");
+			        },
+			        after: function () {
+			          $('.events').append("<li>after event fired.</li>");
+			        }
+			      });
+			
+			    });
+			  </script>
+		 <div class="clearfix"> </div>
+			    <div class="b-bottom"> 
+			      <h5 class="top"><a href="single.html">Chiêm ngưỡng "ngựa hoang" lột xác hoàn toàn mới: Yamaha YZF-R6</a></h5>
+			      <p>On March 25 <a class="span_link" href="#"><span class="glyphicon glyphicon-comment"></span>299 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-eye-open"></span>9584 </a><a class="span_link" href="single.html"><span class="glyphicon glyphicon-circle-arrow-right"></span></a></p>
+				</div>
+			 </div>
+			   <!--//banner-->
+			  <!--/top-news-->
+			  <div class="top-news">
+				<div class="about-content">
+				<!-- about -->
+					   <h3 class="tittle">Về chúng tôi <i class="glyphicon glyphicon-user"></i></h3>
+							<img src="images/ab.jpg" alt=" " />
+							<p>Với đội ngũ nhiều năm kinh nghiệm từng trải, kèm theo đó là niềm đam mê bất tận với xe motor. Chúng tôi luôn hỗ trợ, giúp đỡ và đồng cảm với tất cả mọi người. 
+								<label>Với tất cả kinh nghiệm và sự trợ giúp nhiệt tình từ đội ngũ công ty. Chúng tôi mang lại cho bạn sân chơi thỏa mãn tất cả các tín đồ xe motor trên thế giới tại Việt Nam. Tất cả mặt hàng được nhập khẩu chính ngạch hải quan, chất lượng, bảo hành, bảo trì,...đều đúng quy trình và thật "tươi ngon" nhất cho tất cả khách hàng.</label></p>
+							<div class="clearfix"></div>
+						<p class="nam">Được thành lập từ năm 2019. Công ty chúng tôi mang lại tất cả tiện ích về xe Motor, từ xe, nón, áo, quần, phụ tùng, phụ kiện chính hãng nhập khẩu. Chúng tôi chăm sóc cho xe như một người con của mình, và tất nhiên, cả xe của bạn cũng vậy.... </p>
+						<div class="more">
+							<a href="single.html">Đọc tiếp</a>
+						</div>
+				</div>
+				 <div class="top-inner second">
+					<div class="col-md-6 top-text">
+						 <a href="single.html"><img src="images/pic1.jpg" class="img-responsive" alt=""></a>
+						    <h5 class="top"><a href="single.html">Harley Davidson: Roadster 2019</a></h5>
+							<p>ROADSTER™ SỰ KÍCH THÍCH HÒA TRỘN CÙNG CÚ HÍCH TỪ PHONG CÁCH ĐỘ NGẪU HỨNG</p>
+						    <p>On March 25 <a class="span_link" href="#"><span class="glyphicon glyphicon-comment"></span>121 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-eye-open"></span>2150 </a><a class="span_link" href="single.html"><span class="glyphicon glyphicon-circle-arrow-right"></span></a></p>
+					 </div>
+					<div class="col-md-6 top-text two">
+						 <a href="single.html"><img src="images/pic2.jpg" class="img-responsive" alt=""></a>
+						    <h5 class="top"><a href="single.html">Ducati Panigale V4 R - Siêu môtô mạnh nhất của Ducati sở hữu cánh gió</a></h5>
+							<p>Một năm sau khi ra mắt, Ducati Panigale V4 được phát triển bản xe đua với những công nghệ từ các giải đua hàng đầu như MotoGP, WSBK và có mức giá 45.600 USD.</p>
+						    <p>On March 25 <a class="span_link" href="#"><span class="glyphicon glyphicon-comment"></span>0 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-eye-open"></span>56 </a><a class="span_link" href="single.html"><span class="glyphicon glyphicon-circle-arrow-right"></span></a></p>
+					 </div>
+					 <div class="clearfix"> </div>
+				 </div>
+	            </div>
+					<!--//top-news-->
+		     </div>
+			<!--//banner-section-->
+			<div class="banner-right-text">
+			 <h3 class="tittle">News  <i class="glyphicon glyphicon-facetime-video"></i></h3>
+			<!--/general-news-->
+			 <div class="general-news">
+				<div class="general-inner">
+					<div class="general-text">
+						 <a href="single.html"><img src="images/gen4.jpg" class="img-responsive" alt=""></a>
+						    <h5 class="top"><a href="single.html">Suzuki Katana 2019 đầu tiên tại Châu Á</a></h5>
+							<p>Suzuki Katana 2019 đầu tiên tại khu vực châu Á đang được trưng bày tại Triển lãm Bangkok Motorshow 2019. Hiện tại, mẫu xe Katana 2019 hoàn toàn mới này chỉ là phiên bản Concept chưa được sản xuất thương mại.</p>
+						    <p>On Jun 25 <a class="span_link" href="#"><span class="glyphicon glyphicon-comment"></span>0 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-eye-open"></span>56 </a><a class="span_link" href="single.html"><span class="glyphicon glyphicon-circle-arrow-right"></span></a></p>
+					 </div>
+					 <div class="edit-pics">
+							      <div class="editor-pics">
+										 <div class="col-md-3 item-pic">
+										   <img src="images/f4.jpg" class="img-responsive" alt="">
+
+										   </div>
+											<div class="col-md-9 item-details">
+												<h5 class="inner two"><a href="single.html">BMW S1000RR độ Full Carbon theo phong cách SBK Alpha Racing</a></h5>
+												 <div class="td-post-date two"><i class="glyphicon glyphicon-time"></i>March 22, 2019 <a href="#"><i class="glyphicon glyphicon-comment"></i>165 </a></div>
+											 </div>
+											<div class="clearfix"></div>
+										</div>
+										<div class="editor-pics">
+										 <div class="col-md-3 item-pic">
+										   <img src="images/f1.jpg" class="img-responsive" alt="">
+
+										   </div>
+											<div class="col-md-9 item-details">
+												<h5 class="inner two"><a href="single.html">Aprilia RSV4-X phiên bản giới hạn chỉ 10 chiếc 225 HP – 165 Kg</a></h5>
+												 <div class="td-post-date two"><i class="glyphicon glyphicon-time"></i>March 22, 2019 <a href="#"><i class="glyphicon glyphicon-comment"></i>235 </a></div>
+											 </div>
+											<div class="clearfix"></div>
+										</div>
+										<div class="editor-pics">
+										 <div class="col-md-3 item-pic">
+										   <img src="images/f3.jpg" class="img-responsive" alt="">
+
+										   </div>
+											<div class="col-md-9 item-details">
+												<h5 class="inner two"><a href="single.html">Sunday We Ride tháng 3 kết hợp Lái thử xe mới 2019 tại Cần Thơ</a></h5>
+												 <div class="td-post-date two"><i class="glyphicon glyphicon-time"></i>March 22, 2019 <a href="#"><i class="glyphicon glyphicon-comment"></i>684 </a></div>
+											 </div>
+											<div class="clearfix"></div>
+										</div>
+										<div class="editor-pics">
+										 <div class="col-md-3 item-pic">
+										   <img src="images/f2.jpg" class="img-responsive" alt="">
+
+										   </div>
+											<div class="col-md-9 item-details">
+												<h5 class="inner two"><a href="single.html">Yamaha MT-15 2019 - Naked-bike phong cách "Samurai" giá 79 triệu đầu tiên về Việt Nam</a></h5>
+												 <div class="td-post-date two"><i class="glyphicon glyphicon-time"></i>March 22, 2019 <a href="#"><i class="glyphicon glyphicon-comment"></i>948 </a></div>
+											 </div>
+											<div class="clearfix"></div>
+										</div>
+									</div>
+								<div class="media">	
+								 <h3 class="tittle media">Thư viện ảnh <i class="glyphicon glyphicon-floppy-disk"></i></h3>
+								  <div class="general-text two">
+									 <a href="gallery.html"><img src="images/gen3.jpg" class="img-responsive" alt=""></a>
+										<h5 class="top"><a href="single.html">Chiêm ngưỡng át chủ bài của Kawasaki: Ninja H2R</a>/a></h5>
+										<p>Sức mạnh của Kawasaki Ninja H2R 2017 sẽ vẫn đến từ khối động cơ siêu nạp (Supercharged) với hiệu năng cao và chỉ được phép sử dụng trong đường đua, là loại động cơ 4 xy-lanh thẳng hàng, DOHC, có dung tích 998 phân khối, được làm mát bằng dung dịch.</p>
+										<p>On March 25 <a class="span_link" href="#"><span class="glyphicon glyphicon-comment"></span>485 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-eye-open"></span>8465 </a><a class="span_link" href="gallery.html"><span class="glyphicon glyphicon-circle-arrow-right"></span></a></p>
+								  </div>
+					         </div>
+					    <div class="general-text two">
+						    <a href="gallery.html"><img src="images/gen2.jpg" class="img-responsive" alt=""></a>
+						    <h5 class="top"><a href="single.html">Loạt ảnh mới nhất về BMW S1000RR 2019</a></h5>
+							<p>BMW S1000RR 2019 sẽ do BMW Motorrad Việt Nam phân phối chính hãng. BMW S1000RR 2019 sẽ được nhập khẩu trực tiếp từ Châu Âu cụ thể là nước Đức. Cùng Motosaigon tìm hiểu chi tiết thông số và giá xe BMW S1000RR 2019 chuẩn bị về Việt Nam.</p>
+						    <p>On March 25 <a class="span_link" href="#"><span class="glyphicon glyphicon-comment"></span>658 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-eye-open"></span>9486 </a><a class="span_link" href="gallery.html"><span class="glyphicon glyphicon-circle-arrow-right"></span></a></p>
+					    </div>
+				 </div>
+			</div>	
+			<!--//general-news-->
+			<!--/news-->
+			<!--/news-->
+		 </div>
+			<div class="clearfix"> </div>
+	<!--/footer-->
+	     <div class="footer">
+				 <div class="footer-top">
+				    <div class="col-md-4 footer-grid">
+					     <h4>Follow my VBlog</h4>
+				          <ul class="bottom">
+							 <li>Youtube: darkkingblog</li>
+							 <li>Facebook: Phúc Hoàng (Dark King)</li>
+						 </ul>
+				    </div>
+					  <div class="col-md-4 footer-grid">
+					     <h4>Liên hệ</h4>
+				            <ul class="bottom">
+						     <li><i class="glyphicon glyphicon-home"></i>Trực tuyến 24/7 </li>
+							 <li><i class="glyphicon glyphicon-envelope"></i><a href="mailto:info@example.com">ndsdarkwalker@gmai.com</a></li>
+						   </ul>
+				    </div>
+					<div class="col-md-4 footer-grid">
+					     <h4>Địa chỉ</h4>
+				           <ul class="bottom">
+						     <li><i class="glyphicon glyphicon-map-marker"></i>Tp.HCM: Trường Chinh, phường Tây Thạnh, quận Tân Phú, thành phố Hồ Chí Minh </li>
+							 <li><i class="glyphicon glyphicon-earphone"></i>Điện thoại: 0987 654 321 </li>
+						   </ul>
+				    </div>
+					<div class="clearfix"> </div>
+				 </div>
+	     </div>
+		<div class="copy">
+		    <p>&copy; 2019 Motorcycle Blog. All Rights Reserved | Design by <a href="http://w3layouts.com/">Dark King</a> </p>
+		</div>
+	 <div class="clearfix"> </div>
+	</div>
+	<div class="clearfix"> </div>
+</div>	
+		<!--//footer-->
+			<!--start-smooth-scrolling-->
+						<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+		<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+
+</body>
+</html>
